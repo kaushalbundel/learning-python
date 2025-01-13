@@ -16,3 +16,13 @@ if __name__ == "__main__":
     asyncio.run(main())
     elapsed = time.perf_counter() -s
     print(f"{__file__} executed in {elapsed:0.2f} seconds")
+'''
+result:
+one
+one
+one
+two
+two
+two
+/home/kaushalbundel/01-programming/python/asyncIO/Asyncio.py executed in 1.05 seconds
+'''
